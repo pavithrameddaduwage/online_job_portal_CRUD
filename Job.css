@@ -1,0 +1,248 @@
+/* Job.css */
+
+/* Font Style */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background-color: #f2f2f2; 
+}
+
+/* Form Container */
+.fullform {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.heading-job {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #177cdb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e5aa7;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffb300;
+}
+
+.view-jobs-link {
+    text-decoration: none;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .nav_group {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer .group_header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .item {
+    margin-bottom: 5px;
+}
+
+.footer .social-item {
+    margin-right: 10px;
+}
+
+.footer .social-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social-item a:hover {
+    color: #4CAF50;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.form-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #abd8f6;
+    color: #000000;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 2px solid #0046ff;
+}
+
+/* Update Button */
+.update-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Hover Effect on Buttons */
+.update-btn:hover, .delete-btn:hover {
+    opacity: 0.8;
+}
+
+.update-btn a,
+.delete-btn a {
+    text-decoration: none;  
+    color: white;  
+}
+
+/* Form container */
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Form input and textarea styles */
+form.update-form input[type="text"],
+form.update-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Checkbox style */
+form.update-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* Submit button style */
+form.update-form input[type="submit"],
+form.update-form button.delete-btn {
+    width: calc(50% - 5px);
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Style for delete button */
+form.update-form button.delete-btn {
+    background-color: #f44336; 
+}
+
+/* Light background for update form */
+.form-container form.update-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
